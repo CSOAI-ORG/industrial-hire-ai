@@ -1,0 +1,17 @@
+{
+  "name": "IndustrialHire.AI Construction Agent",
+  "description": "AI-powered plant hire, grab lorries, skip hire, and fleet management for UK construction.",
+  "url": "https://industrialhire.ai",
+  "version": "1.0.0",
+  "provider": { "name": "MEOK AI Labs", "url": "https://meok.ai" },
+  "capabilities": { "streaming": true },
+  "skills": [
+    { "id": "equipment-search", "name": "Equipment Search", "description": "AI-powered equipment matching across 10,000+ machines" },
+    { "id": "hse-compliance", "name": "HSE Compliance", "description": "Automated health and safety documentation" },
+    { "id": "loler-tracker", "name": "LOLER/PUWER Tracking", "description": "Automated compliance tracking for lifting equipment" },
+    { "id": "transport-calculator", "name": "Transport Calculator", "description": "Real-time delivery cost estimates" }
+  ],
+  "pricing": { "starter": "Free", "pro": "£49/mo", "enterprise": "£199/mo" },
+  "mcp_endpoint": "https://industrialhire.ai/api/mcp",
+  "a2a_endpoint": "https://industrialhire.ai/api/a2a"
+}
